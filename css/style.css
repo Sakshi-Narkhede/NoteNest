@@ -37,6 +37,9 @@
     Base: #495057; (Stone) 
     Tint: #f1f3f5; (Vapor) 
     Shade: #212529; (Ink)
+
+    --------- BORDER RADIUS ---------
+    4px / 8px / 20px
 */
 
 /* ---------------------------- GLOBAL STYLES ---------------------------- */
@@ -100,6 +103,7 @@ ul {
     font-size: 16px;
     text-decoration: none;
     padding: 15px 30px;
+    border-radius: 8px;
 }
 
 .btn-primary:link, .btn-primary:visited {
@@ -141,6 +145,7 @@ ul {
 .highlight {
     color: #fff;
     padding: 5px 10px;
+    border-radius: 4px;
 }
 
 .highlight-primary {
@@ -180,15 +185,16 @@ ul {
 }
 
 /* ------- CTA SECTION ------- */
-.cta-section {
+/* .cta-section {
     text-align: center;
-}
+} */
 
 .cta-card {
     text-align: center;
     background-color: #339af0;
     width: 1000px;
     padding: 50px 100px;
+    border-radius: 20px;
 }
 
 /* ------- FOOTER ------- */
