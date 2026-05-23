@@ -47,6 +47,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -198,17 +200,21 @@ ul {
 }
 
 /* ------- FEATURES SECTION ------- */
+.features-section {
+    margin-bottom: 300px;
+}
+
 .features-main-heading {
     text-align: center;
     margin-bottom: 80px;
 }
 
-.feature-img {
-    width: 400px;
+.feature-headings {
+    margin-bottom: 20px;
 }
 
-.features-section {
-    margin-bottom: 300px;
+.feature-img {
+    width: 400px;
 }
 
 /* ------- CTA SECTION ------- */
@@ -222,6 +228,10 @@ ul {
     width: 1000px;
     padding: 50px 100px;
     border-radius: 20px;
+}
+
+.cta-heading {
+    margin-bottom: 20px;
 }
 
 /* ------- FOOTER ------- */
