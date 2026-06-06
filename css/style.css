@@ -289,6 +289,11 @@ ul {
     margin-bottom: 8rem;
 }
 
+.features-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .feature-headings {
     margin-bottom: 2rem;
 }
