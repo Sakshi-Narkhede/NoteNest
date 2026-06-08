@@ -155,6 +155,10 @@ a {
     display: inline-block;
 }
 
+a:link, a:visited, a:hover, a:active {
+    color: var(--grey-base);
+}
+
 span {
     display: inline-block;
 }
@@ -298,6 +302,11 @@ ul {
     align-items: center;
 }
 
+.feature-img-swap-order {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
 .feature-headings {
     margin-bottom: 2rem;
 }
@@ -325,6 +334,7 @@ ul {
 
 .cta-heading {
     margin-bottom: 2rem;
+    color: #fff;
 }
 
 /* ------- FOOTER ------- */
@@ -347,4 +357,8 @@ ul {
 .footer-links-container {
     display: flex;
     gap: 1.5rem;
+}
+
+.heart-icon {
+    color: var(--secondary-base);
 }
