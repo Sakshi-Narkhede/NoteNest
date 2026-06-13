@@ -1,0 +1,48 @@
+/* LG - Small Laptops (1024px - 1280px) */
+
+@media (max-width: 72rem) {
+    /* 1150px / 16px = 72rem */
+
+    html {
+        font-size: 56.25%;
+        /* 9px / 16px = 56.25% */
+    }   
+
+    .features-grid-container {
+        column-gap: 2rem;
+    }
+
+    .cta-section {
+        margin-bottom: 20rem;
+    }
+}
+
+/* MD - Tablets (768px - 1024px) */
+
+@media (max-width: 51rem) {
+    /* 815px / 16px = 51rem */
+
+    html {
+        font-size: 50%;
+        /* 8px / 16px = 50% */
+    }
+}
+
+/* SM - Phone Landscape (576px - 768px) */
+
+@media (max-width: 31rem) {
+    /* 492px / 16px = 31rem */
+
+    html {
+        font-size: 43.75%;
+        /* 7px / 16px = 43.75% */
+    }
+
+    .cta-card {
+        padding: 6rem 12rem;
+    }
+
+    .features-section {
+        margin-bottom: 15rem;
+    }
+}
